@@ -14,16 +14,11 @@ In this competition, you’re challenged to build a multi-headed model that’s 
 
 The data consists large number of Wikipedia comments which have been labeled by human raters for toxic behavior. The types of toxicity are:
 
-    •	toxic
-    
+    • toxic    
     • severe_toxic
-    
     • obscene
-    
     • threat
-    
     • insult
-    
     • identity_hate
     
 This git approaches by visualizing the data, creating features, applying different models mainly: Logistic regression, Naive Bayes, LDA.
