@@ -11,13 +11,21 @@ The Conversation AI team, a research initiative founded by Jigsaw and Google (bo
 
 In this competition, you’re challenged to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than Perspective’s current models. You’ll be using a dataset of comments from Wikipedia’s talk page edits. Improvements to the current model will hopefully help online discussion become more productive and respectful.
 
+
 The data consists large number of Wikipedia comments which have been labeled by human raters for toxic behavior. The types of toxicity are:
-  •	toxic
-  • severe_toxic
-  • obscene
-  • threat
-  • insult
-  • identity_hate
+
+    •	toxic
+    
+    • severe_toxic
+    
+    • obscene
+    
+    • threat
+    
+    • insult
+    
+    • identity_hate
+    
 This git approaches by visualizing the data, creating features, applying different models mainly: Logistic regression, Naive Bayes, LDA.
 
 The dataset can be found: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
